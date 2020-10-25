@@ -1,0 +1,320 @@
+ ### ### ############# # ########### ###
+#...#...#.............#.#...........#...#
+#.#.#.#.###.#########.#.#.###.#####.###.#
+#.#...#...#...#.....#.#.#.#...#.........#
+#.#######.###.#.#####.#.#.#.###########.#
+#.#...........#.......#.#.#.......#...#.#
+#.###.#########.#######.#.#######.#.#.#.#
+#...#.#.......#.#...............#.#.#...#
+ ##.###.#####.#.#.###########.###.#.####
+#...#...#...#.#.#...#...#.....#...#.#...#
+#.###.###.#.#.#.#####.#.#.#####.###.###.#
+#...#...#.#.#.#...#...#.#...#...#.......#
+#.#.###.###.#.###.#.###.#####.##########
+#.#...#.#...#.#...#.#.#.......#...#.....#
+ ####.#.#.###.#.###.#.###.#####.#.#.###.#
+#.....#.#...#.#.....#...#.#...#.#.....#.#
+#.#####.#.#.#.#######.#.#.#.#.#.#######.#
+#.#.....#.#.#...#.....#...#.#...#.......#
+#.#.#######.###.###########.#####.######
+#.#.#.....#...#.#...........#...#.#.....#
+#.#.#.#.#.#.#.#.#.#####.#####.###.#.###.#
+#.#.#.#.#...#.#.#.#..S#...#.....#.#.#...#
+#.#.###.#####.#.#.#.#####.#####.#.#.#.##
+#.#...#.....#.#...#.#...#.#.....#.#.#...#
+#.###.#.###.#####.#.#.###.#.#.###.#####.#
+#.....#.#...#...#.#.#.......#.#...#.....#
+#.#####.#.###.#.###.###########.###.####
+#...#...#...#.#.....#...........#.......#
+ ##.###.###.#.#######.###########.#####.#
+#.#...#.#...#.........#...#.....#.#.....#
+#.###.###.#.###########.###.#.###.#.###.#
+#.#...#...#.#...#.....#.#...#.....#.#...#
+#.#.###.###.#.#.#.###.#.#.#########.#.##
+#...#...#.#...#.#.#...#.#.#......O#.#...#
+#.###.###.#####.#.#.###.#.###.#.###.###.#
+#.#...#.......#...#.#.........#.#...#.#.#
+#.###.#.###.#######.#########.###.###.#.#
+#.#...#.#.#.......#...#.....#.#...#.....#
+#D#.###.#.#######.###.#.###.###.###.####
+#...#...........#.......#.......#.......#
+ ### ########### ####### ####### #######
+
+4 11 = 4 + 7 + 4 = 4 + 3 + 1 + 3 + 4 => max time = 3 + 4 + 1 = 8 = Ceil( (4+11) / 2)
+= (4 + 11)/2 + (4 + 11)%2
+
+Swwsssssswwwwnnwwsssseeeeeeeenneeeeeeeeeenneennnnnnnneeeeeennnnwwwwsswwnnwwsssswwnnwwsssswwwwwwwwwwsssswwnnnnnnwwnnnnnnnnnnwwwwwwss
+wwsseesssssswwwwsssssseesswwwwsseesseesswwsswwsssssseenneennnneenneenneesssseenneesssseennnneeeesswwsssseesseenneeeesseeeenneennee
+nnnnnneeeennwwwwwwsssswwwwnnwwsswwsssseeeenneeeeOwwwwsswwwwnnnneenneesseeeennnneeeeeesswwwwsssssswwsswwsswwwwnnwwwwsswwnnwwnnnneenn
+wwwwsssswwnnnnwwsswwnnnnwwsswwsswwsssswwsswwnnnnnneenneennwwnnwwnneeeennwwnnnnnneeeennnnnnwwnneenneeeeeesssssssssseesssssseennnn
+eeeeeeeeeennnneesseennnneesseenneeeesssswwwwwwsssssssswwsswwwwwwwwwwsswwwwwwwwnnnneesseeeennnnnnee
+Swwsssssswwwwnnwwsssseeeeeeeenneeeeeeeeeenneennnnnnnneeeeeennnnwwwwsswwnnwwsssswwnnwwsssswwwwwwwwwwsssswwnnnnnnwwnnnnnnnnnnwwwwwwss
+wwsseesssssswwwwsssssseesswwwwnnnnnnnnnneeeennwwnnwwnneennwwnnnnnneesseenneesseesswwwwwweessnneeeeeeeennwwnneeeeeeeeeesssswwwwwwnn
+eeeewwwwsssssssseesswwsseeeennnneenneesssseesssswwnnwwnnsssswwwweeeenneesseennnneeeenneenneennnnwwwwwwnneenneeeeeesswwwweeeeeeee
+sssswwnnwwsssssswweeeeeennwweesswwwwnnnnnneesseennnnnnwweesswwwwnnwwwwwwwwwwsssssswwnnnnnnsssssswwwwwwsseewwnneeeeeeeeeeeesswwwwss
+eewwnneeeenneewwwwwwnnnnnneeeesswwsseeeeeesssswwsswwsswwwwwwnnnnwwsswwsssswwwwnneennwwnnnnnneeeeeennnnwwwwwwwwwwwweesseesswwwwnnww
+nnwwsswwnnwwsssssseesswwssssnneesseesswwwwsssssssssssseesseesswwsswwnnnnsssssssssseenneennnneenneenneesssseenneesssseennnneeeessww
+sssseesswwwwnnwwwwwwnneewwwwnnsswwsssswweeeeeeeeeewwwwwwnnsswwnnnneeeesseeeeeesseeeeeenneeeesswweeeeeenneenneennnnnneeeesswwssee
+sssswwnnsswwsswweeeeeewwwwnneeeennnnwwnneennnnwwwwnneeeennwwnneennwwwwssssnnnneeeesswwsseesswwwwsswwsssswwwwnneewwwwsswwssssww
+nnnnnneewwsssssswweeeeeeeessnnnneessnneeOwwwwwweesswwwwnnnneenneesseeeennnneeeeeesswwwwsssssswwsswwsswwwwnnwwwwsswwnnwwnnnneennwwww
+sssswwnnnnwwsswwnnnnnnwwnneennwwwwnnnneesseenneessssnnnnwwnnnnwwnneennnnwwssnneesssswwssssnneesssssswwnnwwwwssnneesssssssswweess
+nnnnnneeeesswwsseesswwsswwsswwsswweesswwsswwnnnnnneenneennwwnnwwnneeeennwwnnnnnneeeennnnnnwwnneenneeeeeesssssssssseesssssseess
+nnnnnneeeeeesseesssswwwwnneewwsseeeeeenneessnneennwwnneewwsswweeeesswwwwsswwnnnnwwnneeeennnneesseennnneesseeeewwnneeeesssswwwwww
+sssssssswwsswwwwwwwwwwsswwwwwwwwnnnneesseeeennnnnnee
+
+|S......|
+	|wwsssssswwwwnnwwsssseeeeeeeenneeeeeeeeeenneennnnnnnneeeeeennnnwwwwsswwnnwwsssswwnnwwsssswwwwwwwwwwsssswwnnnnnnww..
+	nnnnnnnnnnwwwwwwsswwsseesssssswwwwsssssseesswwwwnnnnnnnnnneeeennwwnnwwnneennwwnnnnnneesseenneesseess
+|wwww...|
+	|1:ww(ee)
+	|2:ss(nn)
+|(eeee)
+|eeeennwwnneeeeeeeeeesssswwwwww.|
+				|3:nneeee(wwwwss)
+				|sssssseesswwsseeeennnneenneessssee.....|
+									|sssswwnnww.....|
+											|4:nn(ss)
+											|5:sswwww(eeeenn)
+									|(eesseennnn)
+									|..
+eeeenneenneennnnwwwwwwnneenn....|
+				|eeeeeess|
+					|6:wwww(eeee)
+					|eeee...|
+						|sssswwnnwwssssss|
+								|7:ww(ee)
+								|8:eeeennww(eesswwww)
+						|(nnnnnneesseennnn)
+						|9:nnww(eess)
+					|(wwww)
+				|(nnwwwwww)
+				|wwwwssssss.....|
+						|ww.....|
+							|10:nnnnnn(ssssss)
+							|11:wwwwwwssee(wwnneeeeee)
+						|(ee)
+						|eeee...|
+							|12:sswwwwssee(wwnneeeenn)
+							|13:ee(ww)
+						|(wwww)
+				|(nnnnnneeee)
+|(sswwsseeeeeesssswwsswwsswwww)
+|wwnnnnwwsswwsssswwwwnneennwwnnnnnneeeeeennnnwwwwwwwwww.|
+							|14:ww(ee)
+							|sseesswwwwnnwwnnwwsswwnnwwsssssseesswwss|
+												|15:ss(nn)
+												|..
+eesseesswwwwsssssssssssseesseesswwssww..|
+					|16:nnnn(ssss)
+					|..
+sssssseenneennnneenneenneesssseenneesssseennnneeeesswwsssseess..|
+								|wwwwnnwwwwwwnn.|
+										|17:ee(ww)
+										|ww.....|
+											|18:nn(ss)
+											|wwssss.|
+												|19:ww(ee)
+												|ee.....|
+													|20:eeeeee(wwwwww)
+													|21:nn(ss)
+												|(ww)
+											|(nnnnee)
+										|(ee)
+								|(sseeeeeesseeee)
+								|eenneeeess.....|
+										|22:ww(ee)
+										|..
+eeeenneenneennnnnneeee..|
+			|sswwsseessssww.|
+					|23:nn(ss)
+					|wwss...|
+						|24:ww(ee)
+						|25:eeee(wwww)
+					|(nnee)
+			|(eennnnwwnneenn)
+			|nnwwww.|
+				|26:nneeeennwwnneennwwwwssss(nnnneeeesswwsseesswwwwss)
+				|wwsssswwwwnn...|
+						|27:ee(ww)
+						|wwsswwssss.....|
+								|ww.....|
+									|28:nnnnnnee(wwssssss)
+									|29:ww(ee)
+								|(ee)
+								|eeee...|
+									|30:ss(nn)
+									|nnee...|
+										|31:ss(nn)
+										|ee
+|.......O|
+
+Owwww...|
+	|1:ww(ee)
+	|sswwwwnnnneenneesseeeennnneeeeeesswwwwsssssswwsswwsswwwwnnwwwwsswwnnwwnnnneennwwwwsssswwnnnnwwsswwnnnn..
+nnwwnneennwwww..|
+		|nnnn...|
+			|eesseenn|
+				|2:eessss(nnnnww)
+				|nnnnww..|
+					|3:nneennnnwwss(nneesssswwss)
+					|4:ss(nn)
+				|(eessss)
+			|(sswwnnww)
+			|5:wwss(nnee)
+		|(ssss)
+		|ssss...|
+			|6:ww(ee)
+			|7:ss(nn)
+		|(nnnn)
+|(eeeesswwsseess)
+|wwsswwsswwss...|
+		|8:ww(ee)
+		|sswwsswwnnnnnneenneennwwnnwwnneeeennwwnnnnnneeeennnnnnwwnneenneeeeeesssssssssseessssssee|
+													|9:ss(nn)
+													|..
+nnnneeeeee......|
+	|sseessss.......|
+			|10:wwwwnnee(wwsseeee)
+			|eennee.|
+				|11:ss(nn)
+				|eennww.|
+					|12:nnee(wwss)
+					|13:ww(ee)
+				|(eessww)
+			|(wwssww)
+	|(nnnnwwnn)
+	|eeeennnneesseennnneessee|
+				|14:ee(ww)
+				|nneeeesssswwwwwwsssssssswwsswwwwwwwwwwsswwwwwwwwnnnneesseeeennnnnnee...|
+													|......S|
+
+Or, back-tracking:
+Reverse(Swwsssssswwwwnnwwsssseeeeeeeenn...nnnnnneewwsssssswweeeeeeeessnnnneessnneeO)=
+|O......|
+	|ww.....|
+		|ss(nn):1>|
+		|wwss...|
+			|ss(nn):2>|
+			|wwwwww.|
+				|ww.....|
+					|ww(ee):3>|
+					|nnnnnnee(wwssssss):4>|
+				(ee).....
+				|nnnneennee.....|
+						|ee(ww):5>|
+						|sseeeennnnee...|
+								|nneeeennwwnneennwwwwssss(nnnneeeeeesswwsseesswwwwss):6>|
+								|eeeess.|
+									|sswwsseessssww.|
+											|wwss...|
+												|eeee(wwww):7>|
+												|ww(ee):8>|
+											(nnee)...
+											|nn(ss):9>|
+									(eennnnwwnneenn).
+									|wwwwsssssswwsswwsswwww.|
+												|ww(ee):10>|
+												|..
+nnwwwwssww......|
+		|wwwwnnwwwwwwnn.|
+				|ww.....|
+					|wwssss.|
+						|ee.....|
+							|nn(ss):11>|
+							|eeeeee(wwwwww):12>|
+						(ww).....
+						|ww(ee):13>|
+					(nnnnee).
+					|nn(ss):14>|
+				(ee).....
+				|ee(ww):15>|
+		(sseeeeeesseeee).
+		|..
+nnwwnnnneennwwwwsssswwnnnnwwsswwnnnnwwsswwsswwsssswwsswwnnnnnn..|
+								|nnnn(ssss):16>|
+								|eenneennwwnnwwnnnnnnnnnnnneeeennwwnnww.|
+													|ss(nn):17>|
+													|..
+nneennwwnnnnnneesseenneesseesseeeennwwnn|
+					|ww(ee):18>|
+					|eeeeeeeeeesssswwwwwwsssssseesswwsseeeennnneenneesssseeeeeenneenneennnn..
+wwwwwwnneenn....|
+		|wwwwssssss.....|
+				|eeee...|
+					|ee(ww):19>|
+					|sswwwwssee(eennwwwweenn):20>|
+				(wwww)..
+				|ww.....|
+					|sswwwwssee(wwnneeeeee):21>|
+					|nnnnnn(ssssss):22>|
+				(ee).....
+		(nnnnnneeee).....
+		|eeeeeess|
+			|eeee...|
+				|nnww(eess):23>|
+				|sssswwnnwwssssss|
+						|eeeennww(eesswwww):24>|
+						|ww(ee):25>|
+				(nnnnnneesseennnn)
+			(wwww)...
+			|wwww(eeee):26>|
+		(nnwwwwww)
+		|sswwsseeeeeesssswwsswwsswwww...|
+						|sssswwnnww.....|
+								|sswwww(eeeenn):27>|
+								|nn(ss):28>|
+						(eesseennnn)....
+						|..
+wwnnnnwwsswwsssswwwwnneennwwnnnnnn......|
+					|nneeee(wwwwss):29>|
+					|eeeeeennnnwwwwwwwwwwsseesswwww.|
+									|wwww...|
+										|ss(nn):30>|
+										|ww(ee):31>|
+									(eeee)...
+									|..
+nnwwnnwwnnsswwnnwwsssssseesswwsseesseesswwwwsssssssssseeeennwwnnnnnneeeennnnnnwwnneenneeeeeesssssssssseesssssseennnneeeeeeeeee..
+nnnneesseennnneesseenneeeesssswwwwwwsssssssswwsswwwwwwwwwwsswwwwwwwwnnnneesseeeennnnnnee|
+|......S|
+
+|O......|
+	|wwww...|
+		|ww(ee):1>|
+		|sswwwwnnnneenneesseeeennnneeeeeesswwwwsssssswwsswwsswwwwnnwwwwsswwnnwwnnnneennwwwwsssswwnnnnwwss..
+wwnnnn..|
+	|nnwwnneennwwww.|
+			|nnnn...|
+				|eesseenn|
+					|eessss(nnnnww):2>|
+					|nnnnww.|
+						|nneennnnwwss(nneesssswwss):3>|
+						|ss(nn):4>|
+					(eessss).
+				(sswwnnww)...
+				|wwss(nnee):5>|
+			(ssss)...
+			|ssss...|
+				|ww(ee):6>|
+				|ss(nn):7>|
+			(nnnn)...
+	(eeeesswwsseess).
+	|wwsswwsswwss...|
+			|ww(ee):8>|
+			|sswwsswwnnnnnneenneennwwnnwwnneeeennwwnnnnnneeeennnnnnwwnneenneeeeeesssssssssseessssssee|
+														|ss(nn):9>|
+														|..
+nnnneeeeee......|
+		|sseessss|
+			|wwwwnnee(wwsseeee):10>|
+			|eennee.|
+				|ss(nn):11|
+				|eennww.|
+					|nnee(wwss):12>|
+					|ww(ee):13>|
+				(eessww).
+			(wwssww).
+		(nnnnwwnn).......
+		|eeeennnneesseennnneessee|
+					|ee(ww):14>|
+					|nneeeesssswwwwwwsssssssswwsswwwwwwwwwwsswwwwwwwwnnnneesseeeennnnnnee....|
+|......S|

@@ -1,0 +1,15 @@
+ACS Black-box analysis:
+phi = (0, 1, 2, 3, 4): phase config tuple
+Phase functions:
+0 : o = f0(i) = 3 * i + 9
+1 : o = f1(i) = 5 * i
+2 : o = f2(i) = 16 * i + 44
+3 : o = f3(i) = 9 * i + 39
+4 : o = f4(i) = 3 * i + 6
+
+Let Pkl:=Pkl(phi) be Pk(phi)|l, the l-th projection of the k-th permutation of phi
+ACS output: o = (f_Pk5 o f_Pk4 o f_Pk3 o f_Pk2 o f_Pk1)(0)
+
+Apparently f_Pkl(i) = a_kl * i + b_kl
+=> o = a_k5 * () + b_k5
+
